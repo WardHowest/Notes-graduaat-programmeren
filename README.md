@@ -21,7 +21,7 @@ To keep everything organized I would like to stick to the formaating I made.
 
 
 ## 📚 Subjects Covered
-- [**Databases:**](/samentvatting%20sql.md) - Focuses on SQL and indexing.
+- [**Databases:**](/samentvatting%20sql.md) - Focuses on sql SQL Server Management Studio (SSMS).
 - **Web Frontend Basics:** [Status: Coming Soon] - Planned summary covering HTML and CSS.
 
 ## 📥 Local Usage
