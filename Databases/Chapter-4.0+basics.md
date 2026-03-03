@@ -1,3 +1,5 @@
+|
+
 | Chapter: 4.0 | syntax            | note                                                 |
 | ------------ | ----------------- | ---------------------------------------------------- |
 | C 4.0        | use libary        | select database                                      |
@@ -8,6 +10,15 @@
 | C 4.2        | HAVING-clausule   | Specify a search condition mostly used with GROUP BY |
 | C 4.2        | ORDER BY-clausule | Sort rows                                            |
 | C 4.2        | ASC/DESC          | Used with ORDER BY to sort asending or decending     |
+
+| Order of execution |
+| ------------------ |
+| FROM-clausule      |
+| WHERE-clausule     |
+| GROUP BY-clausule  |
+| HAVING-clausule    |
+| SELECT-clausule    |
+| ORDER BY-clausule  |
 
 | Chapter: none | syntax                                   | note                                                                  |
 | ------------- | ---------------------------------------- | --------------------------------------------------------------------- |
