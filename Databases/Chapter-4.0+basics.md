@@ -1,7 +1,7 @@
 | Chapter: 4.0 | syntax            | example                                                                         | note                                                          |
 | ------------ | ----------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| C 4.0        | use libary        | USE pubs                                                                        | select database                                               |
-| C 4.2        | SELECT-clausule   | SELECT *                                                                        | specify what collums to use                                   |
+| C 4.0        | USE libary        | USE pubs                                                                        | select database                                               |
+| C 4.2        | SELECT-clausule   | SELECT price, pub_id                                                                        | specify what collums to use                                   |
 | C 4.2        | FROM-clausule     | SELECT * FROM authors                                                           | specify tabble                                                |
 | C 4.2        | WHERE-clausule    | SELECT * FROM authors WHERE                                                     | Filter rows                                                   |
 | C 4.2        | GROUP BY-clausule | SELECT price FROM titles GROUP BY price                                         | Groups rows together                                          |
