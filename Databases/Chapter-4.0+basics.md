@@ -1,15 +1,13 @@
-|
-
-| Chapter: 4.0 | syntax            | note                                                 |
-| ------------ | ----------------- | ---------------------------------------------------- |
-| C 4.0        | use libary        | select database                                      |
-| C 4.2        | SELECT-clausule   | specify what collums to use                          |
-| C 4.2        | FROM-clausule     | specify tabble                                       |
-| C 4.2        | WHERE-clausule    | Filter rows                                          |
-| C 4.2        | GROUP BY-clausule | Groups rows together                                 |
-| C 4.2        | HAVING-clausule   | Specify a search condition mostly used with GROUP BY |
-| C 4.2        | ORDER BY-clausule | Sort rows                                            |
-| C 4.2        | ASC/DESC          | Used with ORDER BY to sort asending or decending     |
+| Chapter: 4.0 | syntax            | example                                                                         | note                                                          |
+| ------------ | ----------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| C 4.0        | use libary        | USE pubs                                                                        | select database                                               |
+| C 4.2        | SELECT-clausule   | SELECT *                                                                        | specify what collums to use                                   |
+| C 4.2        | FROM-clausule     | SELECT * FROM authors                                                           | specify tabble                                                |
+| C 4.2        | WHERE-clausule    | SELECT * FROM authors WHERE                                                     | Filter rows                                                   |
+| C 4.2        | GROUP BY-clausule | SELECT price FROM titles GROUP BY price                                         | Groups rows together                                          |
+| C 4.2        | HAVING-clausule   | SELECT price, COUNT(*) AS number FROM titles GROUP BY price HAVING COUNT(*) > 2 | Specify a search condition mostly used with GROUP BY          |
+| C 4.2        | ORDER BY-clausule | SELECT * from titles ORDER BY price                                             | Sort rows                                                     |
+| C 4.2        | ASC/DESC          | SELECT * from titles ORDER BY price DESC                                        | Used with ORDER BY to sort asending or decending default: ASC |
 
 | Order of execution |
 | ------------------ |
@@ -37,7 +35,7 @@
 | None          | DISTINCT                                 | SELECT DISTINCT city FROM authors                                                | Removes duplicates querry                                 |
 | None          | OFFSET [n] ROWS FETCH NEXT [n] ROWS ONLY | SELECT * FROM authors OFFSET ORDER BY au_id OFFSET 2 ROWS FETCH NEXT 5 ROWS ONLY | Start from n row and skip n after that                    |
 | None          | SELECT TOP [n]                           | SELECT TOP 5 * FROM authors                                                      | Gives the first [n] rows                                  |
-| None          | SELECT TOP([n]) WITH TIES                | SELECT TOP 3 WITH TIES * FROM titles ORDER BY price                              | Gives the first [n] rows and all rows that match last row | 
+| None          | SELECT TOP([n]) WITH TIES                | SELECT TOP 3 WITH TIES * FROM titles ORDER BY price                              | Gives the first [n] rows and all rows that match last row |
 
 - [Chapter 4.0](/Databases/All-notes.md)
 - [Chapter 4.5](/Databases/Chapter-4.5.md)
