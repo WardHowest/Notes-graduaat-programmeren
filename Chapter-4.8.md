@@ -1,4 +1,4 @@
-| Chapter: 4.7 | syntax                          | example                                     | note                                 |
+| Chapter: 4.8 | syntax                          | example                                     | note                                 |
 | ------------ | ------------------------------- | ------------------------------------------- | ------------------------------------ |
 | C 4.8        | GROUP BY-clausule | SELECT price FROM titles GROUP BY price                                         | Groups rows together                                          |
 | C 4.8        | HAVING-clausule   | SELECT price, COUNT(*) AS number FROM titles GROUP BY price HAVING COUNT(*) > 2 | Specify a search condition mostly used with GROUP BY          |
