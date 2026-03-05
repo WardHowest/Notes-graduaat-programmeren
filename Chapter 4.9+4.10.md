@@ -1,0 +1,3 @@
+| Chapter: 4.9 + 4.10 | syntax                                | example                                                                                        | note                                                        |
+| ------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| C 4.9               | JOIN[table2] ON [collum2] = [collum1] | SELECT employee.job_id, jobs.job_desc FROM employee JOIN jobs ON jobs.job_id = employee.job_id | Inner joins or combines 2 tables. More tables can be joined |
