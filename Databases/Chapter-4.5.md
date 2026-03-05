@@ -22,4 +22,5 @@
 - [Chapter 4.5](/Databases/Chapter-4.5.md)
 - [Chapter 4.6](/Databases/Chapter-4.6.md)
 - [Chapter 4.7](/Databases/Chapter-4.7.md)
+- [Chapter 4.8](/Databases/Chapter-4.8.md)
 - [All notes](/Databases/All-notes.md)
