@@ -37,9 +37,12 @@
 | None          | SELECT TOP [n]                           | SELECT TOP 5 * FROM authors                                                      | Gives the first [n] rows                                  |
 | None          | SELECT TOP([n]) WITH TIES                | SELECT TOP 3 WITH TIES * FROM titles ORDER BY price                              | Gives the first [n] rows and all rows that match last row |
 
+
+
 - [Chapter 4.0](/Databases/All-notes.md)
 - [Chapter 4.5](/Databases/Chapter-4.5.md)
 - [Chapter 4.6](/Databases/Chapter-4.6.md)
 - [Chapter 4.7](/Databases/Chapter-4.7.md)
 - [Chapter 4.8](/Databases/Chapter-4.8.md)
+- [Chapter 4.9 + 4.10](/Databases/Chapter-4.9+4.10.md)
 - [All notes](/Databases/All-notes.md)

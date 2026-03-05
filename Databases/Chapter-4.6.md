@@ -18,9 +18,13 @@
 | C 4.6.3      | DIFFERENCE([string], [string])                      | SELECT DIFFERENCE('Juice','Jucy')                             | Compares two soundex values and returns an integer 0-4          |
 | C 4.6.4      | CAST([value] AS [datatype])                         | SELECT CAST(25.65 AS int)                                     | Casts a value into a specified datatype                         |
 | C 4.6.4      | CONVERT([datatype], [value], [style])               | SELECT CONVERT(varchar, pubdate, 107) FROM titles             | Convert value to specified datatype style is optional           |
+
+
+
 - [Chapter 4.0](/Databases/All-notes.md)
 - [Chapter 4.5](/Databases/Chapter-4.5.md)
 - [Chapter 4.6](/Databases/Chapter-4.6.md)
 - [Chapter 4.7](/Databases/Chapter-4.7.md)
 - [Chapter 4.8](/Databases/Chapter-4.8.md)
+- [Chapter 4.9 + 4.10](/Databases/Chapter-4.9+4.10.md)
 - [All notes](/Databases/All-notes.md)

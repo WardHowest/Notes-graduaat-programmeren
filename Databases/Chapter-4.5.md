@@ -18,9 +18,12 @@
 | 4.5         | LIKE('[char(s)]__[char(s)]')  | SELECT * FROM jobs WHERE min_lvl LIKE('1_0')              | Only get data that contains exact pattern                 |
 | 4.5         | LIKE('[char(s)]__[char(s)]%') | SELECT * FROM titleauthor WHERE title_id LIKE('BU__3%')   | Only get data that contains pattern FROM included char(s) |
 
+
+
 - [Chapter 4.0](/Databases/All-notes.md)
 - [Chapter 4.5](/Databases/Chapter-4.5.md)
 - [Chapter 4.6](/Databases/Chapter-4.6.md)
 - [Chapter 4.7](/Databases/Chapter-4.7.md)
 - [Chapter 4.8](/Databases/Chapter-4.8.md)
+- [Chapter 4.9 + 4.10](/Databases/Chapter-4.9+4.10.md)
 - [All notes](/Databases/All-notes.md)
